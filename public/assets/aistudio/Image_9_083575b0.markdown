@@ -1,0 +1,176 @@
+---
+name: CareNest Visual Language
+colors:
+  surface: '#11131c'
+  surface-dim: '#11131c'
+  surface-bright: '#373943'
+  surface-container-lowest: '#0c0e17'
+  surface-container-low: '#191b24'
+  surface-container: '#1d1f29'
+  surface-container-high: '#282933'
+  surface-container-highest: '#32343e'
+  on-surface: '#e1e1ef'
+  on-surface-variant: '#ccc3d8'
+  inverse-surface: '#e1e1ef'
+  inverse-on-surface: '#2e303a'
+  outline: '#958da1'
+  outline-variant: '#4a4455'
+  surface-tint: '#d2bcff'
+  primary: '#d2bcff'
+  on-primary: '#3e008f'
+  primary-container: '#8a4dff'
+  on-primary-container: '#fffeff'
+  inverse-primary: '#722ee6'
+  secondary: '#c7fff0'
+  on-secondary: '#00382f'
+  secondary-container: '#00f2d1'
+  on-secondary-container: '#006a5a'
+  tertiary: '#ffb2bc'
+  on-tertiary: '#670023'
+  tertiary-container: '#c74a65'
+  on-tertiary-container: '#fffeff'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#eaddff'
+  primary-fixed-dim: '#d2bcff'
+  on-primary-fixed: '#24005a'
+  on-primary-fixed-variant: '#5900c7'
+  secondary-fixed: '#26fedc'
+  secondary-fixed-dim: '#00dfc1'
+  on-secondary-fixed: '#00201a'
+  on-secondary-fixed-variant: '#005144'
+  tertiary-fixed: '#ffd9dd'
+  tertiary-fixed-dim: '#ffb2bc'
+  on-tertiary-fixed: '#400013'
+  on-tertiary-fixed-variant: '#881938'
+  background: '#11131c'
+  on-background: '#e1e1ef'
+  surface-variant: '#32343e'
+typography:
+  display-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 36px
+    fontWeight: '800'
+    lineHeight: 44px
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '600'
+    lineHeight: 18px
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 14px
+rounded:
+  sm: 0.5rem
+  DEFAULT: 1rem
+  md: 1.5rem
+  lg: 2rem
+  xl: 3rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  margin: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.25rem
+---
+
+## Brand & Style
+
+This design system expresses a forward-thinking, empathetic healthcare experience tailored for Gen Z patients and caregivers. The aesthetic bridges high-tech AI capability with human vulnerability, ditching sterile clinical tropes in favor of an uplifting, kinetic, and luminous environment.
+
+- **Design Style:** Modern Neo-Glassmorphism infused with high-energy digital accents and organic softness. Translucent layered plates sit over dark or luminous backdrops, accentuated by precise micro-glows, tactile rounded elements, and airy typography.
+- **Brand Personality:** Empathetic, frictionless, radiant, playful yet medically reliable.
+- **Emotional Response:** Comfort without condescension, absolute clarity during medical stress, and modern delight when interacting with autonomous healthcare scheduling.
+
+## Colors
+
+The palette employs a deep, warm-tinted obsidian base (`#0F111A`) to reduce screen fatigue and make radiant bioluminescent accents pop with purpose:
+
+- **Primary (`#8A4DFF` - Electric Violet):** Drives key calls to action, active navigation states, and primary NestAI agent accents.
+- **Secondary (`#00F5D4` - Radiant Cyan / Neo-Mint):** Denotes vitality, completed confirmations, real-time availability slots, and positive metric indicators.
+- **Tertiary (`#FF758F` - Gentle Coral Peach):** Used for caregiver alerts, medication logs, warm conversational prompts, and critical reminders.
+- **Soft Lavender Tint (`#D8C5FF`):** Supplementary tint for secondary tags, subtle borders, and low-priority pill backgrounds.
+- **Neutral Surface Foundations:**
+  - Base Background: `#0F111A`
+  - Elevated Container / Glass Tier 1: `rgba(28, 32, 48, 0.65)`
+  - Active Surface / Glass Tier 2: `rgba(42, 48, 71, 0.75)`
+  - High-Contrast Text: `#FFFFFF`
+  - Subdued / Muted Text: `#9E9EB8`
+
+## Typography
+
+The typography centers on **Plus Jakarta Sans** across all roles to ensure geometric warmth, modern cadence, and high legibility at glanceable mobile distances. 
+
+- **Display & Headlines:** Heavy weights (`700` and `800`) provide youthful visual weight, anchoring conversational AI prompts and doctor specialization headers.
+- **Body:** Neutral weights (`400`) balanced with generous line heights (`1.5x`) guarantee stress-free comprehension of medical advice, clinical schedules, and dosage directions.
+- **Labels & Micro-copy:** Crisp letter-spacing (`+0.02em`) on pill labels and timestamps to maintain crispness against glass backgrounds.
+
+## Layout & Spacing
+
+Mobile-first fluid architecture built on an 8pt base grid with a 4pt sub-grid for tight micro-alignments:
+
+- **Canvas Margins:** Fixed `1.25rem` (20px) horizontal outer margin for thumb-reach edge clearance on handheld devices.
+- **Grid Gutters:** `1rem` (16px) fluid separation for stacked schedule cards, provider grids, and multi-day horizontally scrollable selectors.
+- **Component Padding Scale:**
+  - Micro tags / status pills: `space-xs` (4px) vertical, `space-sm` (8px) horizontal.
+  - Interactive inputs & quick chips: `space-sm` (8px) to `space-md` (16px).
+  - Cards & modals: `space-lg` (24px) internal containment to afford comfortable breathing room for clinical telemetry.
+
+## Elevation & Depth
+
+Visual hierarchy leverages layered translucent plates (frosting) paired with luminous colored aura highlights rather than standard black shadows:
+
+- **Level 1 (Subsurface Sheets):** `rgba(28, 32, 48, 0.45)` with `16px` backdrop-blur and a subtle `1px` inner rim of `rgba(255, 255, 255, 0.08)`.
+- **Level 2 (Interactive Floating Cards):** `rgba(35, 40, 60, 0.7)` with `24px` backdrop-blur, bounded by `rgba(255, 255, 255, 0.12)`. Casts an ambient shadow: `0 12px 32px -8px rgba(0, 0, 0, 0.45)`.
+- **Level 3 (NestAI Dynamic Glow):** AI chat interfaces and active booking slots emit an electric focal glow: `0 0 24px -2px rgba(138, 77, 255, 0.35)` to create soft focal guidance.
+- **Level 4 (Modals & Drawers):** Dense glass base `rgba(18, 21, 31, 0.92)` with `32px` blur and an assertive top border gradient shifting from Electric Violet to Radiant Cyan.
+
+## Shapes
+
+The system implements continuous curvature with full pill primitives to communicate approachable care:
+
+- **Pill Primitives:** Buttons, filter chips, prompt bubbles, and AI status indicators adopt continuous stadium/pill borders (`roundedness: 3` / `9999px`).
+- **Cards & Bottom Sheets:** Standard cards leverage `1.5rem` (`24px`) radii; modal sheets utilize `2rem` (`32px`) top radii to feel organic, friendly, and soft under fingertip interaction.
+
+## Components
+
+- **Buttons:**
+  - *Primary Booking CTA:* Vibrant Electric Violet gradient base (`linear-gradient(135deg, #8A4DFF 0%, #682AE9 100%)`) with white bold text, pill curvature, and a subtle cyan-accented tap-press feedback ring.
+  - *Secondary Tactile:* Translucent surface (`rgba(255, 255, 255, 0.08)`), white text, with a crisp `1px` border of `rgba(255, 255, 255, 0.16)`.
+- **NestAI Copilot Floating Pill:**
+  - An omnipresent smart widget displaying an emoji icon, pulsing soft-purple indicator ring, and real-time textual status (e.g., "NestAI: Caregiver notified"). Tapping triggers an expansive conversational bottom sheet.
+- **Chips & Filter Pills:**
+  - Compact rounded capsules with `space-xs` vertical and `space-md` horizontal padding. Selected chips switch to bright Electric Violet or Neo-Mint with dark contrasting text.
+- **Booking & Telehealth Cards:**
+  - Layered glass container featuring doctor avatar, Neo-Mint "Available Today" badge, star ratings, and an instant 1-tap book pill. High-contrast typography ensures specialty designations are quickly scannable.
+- **Form Inputs & Search:**
+  - Recessed dark background (`rgba(15, 17, 26, 0.6)`) with `1px` soft lavender borders, transitioning into an electric violet glow upon keyboard activation.
+- **Status & Triage Badges:**
+  - High-saturation micro-pills utilizing semantic tints (Neo-Mint for stable/ready, Gentle Coral for critical prescriptions, Soft Lavender for routine consultations).
